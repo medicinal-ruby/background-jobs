@@ -1,6 +1,6 @@
-#Sidekiq Background Jobs
+# Sidekiq Background Jobs
 
-Usage: Imagine your client sends a promotional email to 1,000,000 (one million) users and complains it takes over 10 minutes to finish the task.
+Imagine your client sends a promotional email to 1,000,000 (one million) users and complains it takes over 10 minutes to finish the task.
 Not only is this bad for the client, but what happens if it fails?
 
 Lets have the client click Send and redirect to a page so they can continue their work! The emails will be sent in a queue and send them when they're ready.
