@@ -14,8 +14,9 @@ Run ```bundle install ```
 
 
 ## Details
-This repo contains some example workers free of use! 
+This repo contains some example workers free of use!
 
 
 ## Contents
 * Welcome Email
+* Send Invoice Email
