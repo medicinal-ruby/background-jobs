@@ -21,3 +21,18 @@ This repo contains some example workers free of use!
 * Welcome Email
 * Send Invoice Email
 * Reset Password
+
+
+## Example Sidekiq Queues 
+```yml
+sidekiq_options queue: :maintenance
+sidekiq_options queue: :low
+sidekiq_options queue: :mid
+sidekiq_options queue: :high
+sidekiq_options queue: :subscribers
+sidekiq_options queue: :mailers
+sidekiq_options queue: :carrierwave ## Possible file caching
+sidekiq_options queue: :cronjob
+sidekiq_options queue: :notifications
+sidekiq_options queue: :csvs
+```
